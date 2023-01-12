@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B80F49F296FA891008E86D4 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B80F49E296FA891008E86D4 /* FacebookCore */; };
+		9B80F4A1296FA891008E86D4 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 9B80F4A0296FA891008E86D4 /* FacebookLogin */; };
+		9B80F4A3296FA891008E86D4 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 9B80F4A2296FA891008E86D4 /* FacebookShare */; };
+		9B80F4A6296FA8F2008E86D4 /* MTFaceBookLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80F4A5296FA8F2008E86D4 /* MTFaceBookLogin.m */; };
+		9B80F4A9296FA968008E86D4 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80F4A8296FA968008E86D4 /* LoginModel.m */; };
+		9BB5C0A5296FA5EF001D01AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5C0A4296FA5EF001D01AD /* AppDelegate.m */; };
+		9BB5C0A8296FA5EF001D01AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5C0A7296FA5EF001D01AD /* SceneDelegate.m */; };
+		9BB5C0AB296FA5EF001D01AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5C0AA296FA5EF001D01AD /* ViewController.m */; };
+		9BB5C0AE296FA5EF001D01AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5C0AC296FA5EF001D01AD /* Main.storyboard */; };
+		9BB5C0B0296FA5F0001D01AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5C0AF296FA5F0001D01AD /* Assets.xcassets */; };
+		9BB5C0B3296FA5F0001D01AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5C0B1296FA5F0001D01AD /* LaunchScreen.storyboard */; };
+		9BB5C0B6296FA5F0001D01AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5C0B5296FA5F0001D01AD /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B80F4A4296FA8F2008E86D4 /* MTFaceBookLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFaceBookLogin.h; sourceTree = "<group>"; };
+		9B80F4A5296FA8F2008E86D4 /* MTFaceBookLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFaceBookLogin.m; sourceTree = "<group>"; };
+		9B80F4A7296FA968008E86D4 /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		9B80F4A8296FA968008E86D4 /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		9BB5C0A0296FA5EF001D01AD /* MTFaceBookLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTFaceBookLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB5C0A3296FA5EF001D01AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BB5C0A4296FA5EF001D01AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BB5C0A6296FA5EF001D01AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9BB5C0A7296FA5EF001D01AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9BB5C0A9296FA5EF001D01AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BB5C0AA296FA5EF001D01AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BB5C0AD296FA5EF001D01AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB5C0AF296FA5F0001D01AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB5C0B2296FA5F0001D01AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BB5C0B4296FA5F0001D01AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB5C0B5296FA5F0001D01AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB5C09D296FA5EF001D01AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B80F4A1296FA891008E86D4 /* FacebookLogin in Frameworks */,
+				9B80F49F296FA891008E86D4 /* FacebookCore in Frameworks */,
+				9B80F4A3296FA891008E86D4 /* FacebookShare in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB5C097296FA5EF001D01AD = {
+			isa = PBXGroup;
+			children = (
+				9BB5C0A2296FA5EF001D01AD /* MTFaceBookLogin */,
+				9BB5C0A1296FA5EF001D01AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB5C0A1296FA5EF001D01AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB5C0A0296FA5EF001D01AD /* MTFaceBookLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB5C0A2296FA5EF001D01AD /* MTFaceBookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				9BB5C0A3296FA5EF001D01AD /* AppDelegate.h */,
+				9BB5C0A4296FA5EF001D01AD /* AppDelegate.m */,
+				9BB5C0A6296FA5EF001D01AD /* SceneDelegate.h */,
+				9BB5C0A7296FA5EF001D01AD /* SceneDelegate.m */,
+				9BB5C0A9296FA5EF001D01AD /* ViewController.h */,
+				9BB5C0AA296FA5EF001D01AD /* ViewController.m */,
+				9B80F4A4296FA8F2008E86D4 /* MTFaceBookLogin.h */,
+				9B80F4A5296FA8F2008E86D4 /* MTFaceBookLogin.m */,
+				9B80F4A7296FA968008E86D4 /* LoginModel.h */,
+				9B80F4A8296FA968008E86D4 /* LoginModel.m */,
+				9BB5C0AC296FA5EF001D01AD /* Main.storyboard */,
+				9BB5C0AF296FA5F0001D01AD /* Assets.xcassets */,
+				9BB5C0B1296FA5F0001D01AD /* LaunchScreen.storyboard */,
+				9BB5C0B4296FA5F0001D01AD /* Info.plist */,
+				9BB5C0B5296FA5F0001D01AD /* main.m */,
+			);
+			path = MTFaceBookLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB5C09F296FA5EF001D01AD /* MTFaceBookLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB5C0B9296FA5F0001D01AD /* Build configuration list for PBXNativeTarget "MTFaceBookLogin" */;
+			buildPhases = (
+				9BB5C09C296FA5EF001D01AD /* Sources */,
+				9BB5C09D296FA5EF001D01AD /* Frameworks */,
+				9BB5C09E296FA5EF001D01AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTFaceBookLogin;
+			packageProductDependencies = (
+				9B80F49E296FA891008E86D4 /* FacebookCore */,
+				9B80F4A0296FA891008E86D4 /* FacebookLogin */,
+				9B80F4A2296FA891008E86D4 /* FacebookShare */,
+			);
+			productName = MTFaceBookLogin;
+			productReference = 9BB5C0A0296FA5EF001D01AD /* MTFaceBookLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB5C098296FA5EF001D01AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9BB5C09F296FA5EF001D01AD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BB5C09B296FA5EF001D01AD /* Build configuration list for PBXProject "MTFaceBookLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB5C097296FA5EF001D01AD;
+			packageReferences = (
+				9B80F49D296FA891008E86D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 9BB5C0A1296FA5EF001D01AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB5C09F296FA5EF001D01AD /* MTFaceBookLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB5C09E296FA5EF001D01AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB5C0B3296FA5F0001D01AD /* LaunchScreen.storyboard in Resources */,
+				9BB5C0B0296FA5F0001D01AD /* Assets.xcassets in Resources */,
+				9BB5C0AE296FA5EF001D01AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB5C09C296FA5EF001D01AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB5C0AB296FA5EF001D01AD /* ViewController.m in Sources */,
+				9BB5C0A5296FA5EF001D01AD /* AppDelegate.m in Sources */,
+				9BB5C0B6296FA5F0001D01AD /* main.m in Sources */,
+				9B80F4A6296FA8F2008E86D4 /* MTFaceBookLogin.m in Sources */,
+				9BB5C0A8296FA5EF001D01AD /* SceneDelegate.m in Sources */,
+				9B80F4A9296FA968008E86D4 /* LoginModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BB5C0AC296FA5EF001D01AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB5C0AD296FA5EF001D01AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BB5C0B1296FA5F0001D01AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB5C0B2296FA5F0001D01AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB5C0B7296FA5F0001D01AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BB5C0B8296FA5F0001D01AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB5C0BA296FA5F0001D01AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MTFaceBookLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.abc.MTFaceBookLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BB5C0BB296FA5F0001D01AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MTFaceBookLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.abc.MTFaceBookLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB5C09B296FA5EF001D01AD /* Build configuration list for PBXProject "MTFaceBookLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB5C0B7296FA5F0001D01AD /* Debug */,
+				9BB5C0B8296FA5F0001D01AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB5C0B9296FA5F0001D01AD /* Build configuration list for PBXNativeTarget "MTFaceBookLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB5C0BA296FA5F0001D01AD /* Debug */,
+				9BB5C0BB296FA5F0001D01AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B80F49D296FA891008E86D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B80F49E296FA891008E86D4 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B80F49D296FA891008E86D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		9B80F4A0296FA891008E86D4 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B80F49D296FA891008E86D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		9B80F4A2296FA891008E86D4 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B80F49D296FA891008E86D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9BB5C098296FA5EF001D01AD /* Project object */;
+}
